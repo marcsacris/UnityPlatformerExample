@@ -39,7 +39,9 @@ PlayerSettings:
     y: 0
     width: 1
     height: 1
-  m_SplashScreenLogos: []
+  m_SplashScreenLogos:
+  - logo: {fileID: 8952294333954952562, guid: bcfaa6ca7f129b64b8de85ddbb805636, type: 3}
+    duration: 3.41
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1920
@@ -294,7 +296,10 @@ PlayerSettings:
   androidSymbolsSizeThreshold: 800
   m_BuildTargetIcons: []
   m_BuildTargetPlatformIcons: []
-  m_BuildTargetBatching: []
+  m_BuildTargetBatching:
+  - m_BuildTarget: Standalone
+    m_StaticBatching: 1
+    m_DynamicBatching: 0
   m_BuildTargetShaderSettings: []
   m_BuildTargetGraphicsJobs: []
   m_BuildTargetGraphicsJobMode: []

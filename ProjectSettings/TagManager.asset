@@ -8,6 +8,10 @@ TagManager:
   - Enemy
   - Coin
   - Portal
+  - Llave
+  - Tesoro
+  - BoarHead
+  - Boss
   layers:
   - Default
   - TransparentFX
@@ -16,7 +20,7 @@ TagManager:
   - Water
   - UI
   - Ground
-  - 
+  - Wall
   - 
   - 
   - 

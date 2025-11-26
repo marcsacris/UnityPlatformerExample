@@ -11,6 +11,7 @@ namespace Platformer2DSystem.Example
         {
             Vector3 position = transform.position;
             position.x = Maths.Damp(transform.position.x, target.position.x, speed, Time.fixedDeltaTime);
+            position.y = Maths.Damp(transform.position.y, target.position.y, speed, Time.fixedDeltaTime);
             transform.position = position;
         }
     }
